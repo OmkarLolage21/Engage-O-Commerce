@@ -1,0 +1,28 @@
+.influencer-dashboard {
+    padding: 2rem;
+    background-color: #f2f2f2;
+  }
+  
+  .influencer-dashboard h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .ant-card {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ant-card-body {
+    font-size: 1rem;
+  }
+  
+  .ant-card a {
+    color: #1890ff;
+  }
+  
+  .ant-card a:hover {
+    text-decoration: underline;
+  }
+  

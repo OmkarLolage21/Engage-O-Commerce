@@ -1,0 +1,35 @@
+.social-proof {
+    margin: 2rem 0;
+  }
+  
+  .ugc-item {
+    text-align: center;
+  }
+  
+  .ugc-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .influencers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .influencer-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .influencer-avatar {
+    margin-bottom: 1rem;
+  }
+  

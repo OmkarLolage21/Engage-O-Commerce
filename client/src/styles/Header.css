@@ -1,0 +1,31 @@
+.navbar {
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,...'); /* Ensure this is properly styled */
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-link:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown-menu {
+    border-radius: 0.5rem;
+  }
+  
+  .nav-item {
+    margin: 0 0.5rem;
+  }
+  
