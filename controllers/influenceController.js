@@ -2,7 +2,6 @@ import Influencer from '../models/Influencer.js';
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken';
 
-// Register an influencer
 export const registerInfluencer = async (req, res) => {
   const { name, email, password } = req.body;
   try {

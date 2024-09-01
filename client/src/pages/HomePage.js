@@ -23,7 +23,6 @@ const HomePage = () => {
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
 
-  // Example data for SocialProof and InfluencerDashboard
   const ugcData = [
     {
       _id: "ugc1",
@@ -270,11 +269,12 @@ const HomePage = () => {
           influencers={influencersData}
         />
       </section>
+      <section></section>
       {/* InfluencerDashboard Component */}
       <section className="influencer-dashboard-section">
-        <InfluencerDashboard 
+        {/* <InfluencerDashboard 
           influencers={influencersData}
-        />
+        /> */}
       </section>
     </Layout>
   );

@@ -11,8 +11,6 @@ export const requireSignIn = async(req,res,next)=>{
         console.log(error);
     }
 };
-
-//Admin Access
 export const isAdmin = async(req,res,next)=>{    
     try{
         const user = await userModel.findById(req.user._id);
@@ -30,6 +28,27 @@ export const isAdmin = async(req,res,next)=>{
         res.status(401).send({
             success:false,
             message:'Error in admin middleware',
+            error
+        });
+    }
+};
+export const isInfluencer = async(req,res,next)=>{    
+    try{
+        const user = await userModel.findById(req.user._id);
+        if(user.role !== 2){
+            return res.status(401).send({
+                success:false,
+                message:'Unauthorized Access'
+            });
+        }
+        else{
+            next();
+        }
+    } catch(error){
+        console.log(error);
+        res.status(401).send({
+            success:false,
+            message:'Error in Infkuencer middleware',
             error
         });
     }

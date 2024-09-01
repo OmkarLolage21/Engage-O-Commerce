@@ -49,6 +49,8 @@ function App() {
         <Route path="admin/users" element={<Users/>}/>
         <Route path="admin/orders" element={<AdminOrders/>}/>
       </Route>
+      <Route path='/influencerDashboard' element = {<sds/>}> 
+      </Route>
       <Route path='/about' element={<About/>} />
       <Route path='/contact' element={<Contact/>} />
       <Route path='/policy' element={<Policy/>} />

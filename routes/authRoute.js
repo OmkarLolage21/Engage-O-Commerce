@@ -1,6 +1,6 @@
 import express from 'express';
 import {testController, loginController,registerController,forgotPasswordController,updateProfileController, getOrdersController, getAllOrdersController, orderStatusController} from '../controllers/authController.js';
-import {isAdmin, requireSignIn} from '../middlewares/authMiddleware.js';
+import {isAdmin, isInfluencer, requireSignIn} from '../middlewares/authMiddleware.js';
 
 const router= express.Router();
 // REGISTER || POST
@@ -21,6 +21,10 @@ router.get('/user-auth', requireSignIn, (req,res)=>{
 })
 
 router.get('/admin-auth', requireSignIn, isAdmin, (req,res)=>{
+    res.status(200).send({ok:true});
+});
+
+router.get('/influencer-auth', requireSignIn, isInfluencer, (req,res)=>{
     res.status(200).send({ok:true});
 });
 

@@ -6,7 +6,6 @@ export const trackAffiliateLink = async (req, res) => {
     const influencer = await Influencer.findById(influencerId);
     if (!influencer) return res.status(404).json({ message: 'Influencer not found' });
 
-    // Logic to track and update commissions
     influencer.commissions += calculateCommission(productId);
     await influencer.save();
 
@@ -17,6 +16,5 @@ export const trackAffiliateLink = async (req, res) => {
 };
 
 const calculateCommission = (productId) => {
-  // Define your logic for calculating commission based on the product
-  return 10; // Example: Fixed commission of $10
+  return 10; 
 };
