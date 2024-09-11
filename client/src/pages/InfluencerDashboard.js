@@ -1,8 +1,7 @@
 import React from 'react';
 import { Card, List } from 'antd';
 import { Link } from 'react-router-dom';
-import '../styles/InfluencerDashboard.css'; // Make sure to create this CSS file for styling
-
+import '../styles/InfluencerDashboard.css'; 
 const InfluencerDashboard = ({ influencers }) => {
   return (
     <div className="influencer-dashboard">

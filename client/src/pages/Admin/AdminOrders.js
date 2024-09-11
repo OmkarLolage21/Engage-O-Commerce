@@ -138,7 +138,7 @@ const AdminOrders = () => {
                         
                         <td>{ 1}</td>
                         <td>{'Delivered'}</td>
-                        <td>{'Omkar Lolage'}</td>
+                        <td>{'Test User'}</td>
                         <td>{'19/03/2024'}</td>
                         <td>{'Success'}</td>
                         <td>{'1'}</td>
@@ -153,14 +153,14 @@ const AdminOrders = () => {
                           <img
                             src={`${process.env.REACT_APP_API}/api/v1/product/product-photo/65f161322fb08c0256be7bb8`}
                             className="card-img-top"
-                            alt={'Chopping Board'}
+                            alt={'Silk Saree'}
                             width="100px"
                             height={"200px"}
                           />
                         </div>
                         <div className="col-md-8">
-                          <p>{'Chopping Board'}</p>
-                          <p>{"Chooping Board made from Iron"}</p>
+                          <p>{'Punjabi Dress'}</p>
+                          <p>{"Pure Cotton dress"}</p>
                           <p>Price : {'20'}</p>
                         </div>
                       </div>
@@ -205,14 +205,14 @@ const AdminOrders = () => {
                           <img
                             src={`${process.env.REACT_APP_API}/api/v1/product/product-photo/65f161322fb08c0256be7bb8`}
                             className="card-img-top"
-                            alt={'Chopping Board'}
+                            alt={'Trimmer'}
                             width="100px"
                             height={"200px"}
                           />
                         </div>
                         <div className="col-md-8">
-                          <p>{'Chopping Board'}</p>
-                          <p>{"Chooping Board made from Iron"}</p>
+                          <p>{'Trimmer'}</p>
+                          <p>{"Trimmer for Men"}</p>
                           <p>Price : {'20'}</p>
                         </div>
                       </div>

@@ -4,10 +4,11 @@ const Spinner = ({path="login"}) => {
     const [count,setCount]=useState(3);
     const navigate = useNavigate();
     const location=useLocation();
+
     useEffect(()=>{
         const interval = setInterval(()=>{
             setCount((prevValue)=> --prevValue);
-        },1000);
+        },1500);
         count === 0 && navigate(`/${path}`,{
           state:location.pathname
         })

@@ -29,7 +29,7 @@ const Register = () => {
     }
 
   return (
-    <Layout title={"Sign Up - Engage Commerce"}>
+    <Layout title={"Sign Up - Engage-O-Commerce"}>
         <div className="form-container ">
         <form onSubmit={handleSubmit}>
           <h4 className="title">Sign Up</h4>

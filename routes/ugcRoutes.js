@@ -3,7 +3,7 @@ import { getUGCByProduct, addUGC } from '../controllers/ugcController.js';
 
 const router = express.Router();
 
-router.get('/:pid', getUGCByProduct);
-router.post('/', addUGC);
+router.get('/getugc/:pid', getUGCByProduct);
+router.post('/ugc', addUGC);
 
 export default router;

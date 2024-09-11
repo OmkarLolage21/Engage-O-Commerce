@@ -24,7 +24,7 @@ const SocialProof = ({ ugc, influencers }) => {
             <FaUserCircle size={50} className="influencer-avatar" />
             <h3>{influencer.name}</h3>
             <p>Instagram: {influencer.socialMediaHandles.instagram}</p>
-            <p>Twitter: {influencer.socialMediaHandles.twitter}</p>
+            {/* <p>Twitter: {influencer.socialMediaHandles.twitter}</p> */}
             {/* <p>Commissions: ${influencer.commissions.toFixed(2)}</p> */}
           </div>
         ))}

@@ -3,7 +3,7 @@ import Layout from '../components/Layout/Layout'
 import logo from '../assets/logo1.png';
 const About = () => {
   return (
-    <Layout title={'More about Foaran'}>
+    <Layout title={'More about Enage-O-Commerce'}>
       <section className="py-3 py-md-5 py-xl-8">
         <div className="container">
           <div className="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
@@ -14,7 +14,7 @@ const About = () => {
               <div className="row justify-content-xl-center">
                 <div className="col-12 col-xl-11">
                   <h2 className="h1 mb-3">About us🪴 </h2>
-                  <p className="lead fs-4 text-secondary mb-3"><b>Engage Commerce</b></p>
+                  <p className="lead fs-4 text-secondary mb-3"><b>Engage-O-Commerce</b></p>
                   <div className="row gy-4 gy-md-0 gx-xxl-5X">
                     <div className="col-12 col-md-6">
                       <div className="d-flex">

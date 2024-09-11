@@ -130,7 +130,7 @@ const UpdateProduct = () => {
               </Select>
               <div className="mb-3">
                 <label className="btn btn-outline-secondary col-md-12">
-                  {photo ? photo.name : "Upload Photo"}
+                  {photo ? photo.name : "Upload Image"}
                   <input
                     type="file"
                     name="photo"

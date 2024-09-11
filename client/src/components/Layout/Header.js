@@ -40,7 +40,7 @@ const Header = () => {
         </button>
         <Link to="/" className="navbar-brand d-flex align-items-center">
           <GiJewelCrown size={30} className="me-2" />
-          <span className="fw-bold">Engage Commerce</span>
+          <span className="fw-bold">Engage-O-Commerce</span>
         </Link>
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -80,7 +80,7 @@ const Header = () => {
               <>
                 <li className="nav-item">
                   <NavLink to="/register" className="nav-link">
-                    Register
+                    Sign Up
                   </NavLink>
                 </li>
                 <li className="nav-item">

@@ -4,9 +4,9 @@ import{ requireSignIn} from '../middlewares/authMiddleware.js';
 
 const router = express.Router();
 
-router.post('/register', registerInfluencer);
-router.post('/login', loginInfluencer);
-router.get('/me', requireSignIn, getInfluencerDetails);
+router.post('/register-influencer', registerInfluencer);
+router.post('/login-influencer', loginInfluencer);
+router.get('/influencer-me', requireSignIn, getInfluencerDetails);
 
 
 export default router;
