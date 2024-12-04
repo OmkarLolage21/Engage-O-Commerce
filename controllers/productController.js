@@ -69,7 +69,7 @@ export const getProductController = async (req, res) => {
     res.status(200).send({
       success: true,
       counTotal: products.length,
-      message: "ALlProducts ",
+      message: "AllProducts ",
       products,
     });
   } catch (error) {
@@ -218,7 +218,7 @@ export const productCountController = async (req, res) => {
 
 export const productListController = async (req, res) => {
   try {
-    const perPage = 3;
+    const perPage = 4
     const page = req.params.page ? req.params.page : 1;
     const products = await productModel
       .find({})
